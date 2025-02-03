@@ -107,10 +107,6 @@ class Tor {
   /// Private constructor for the Tor class.
   Tor._internal() {
     _lib = load(libName);
-
-    if (kDebugMode) {
-      print("Instance of Tor created!");
-    }
   }
 
   /// Start the Tor service.
